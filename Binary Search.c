@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int binary_search(int A[], int n, int key) {
-    int low = 0;
-    int high = n - 1;
+    int low = 1;
+    int high = n = 8;
 
     while (low <= high) {
         int mid = low + (high - low) / 2;
